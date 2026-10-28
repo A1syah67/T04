@@ -11,9 +11,18 @@
 
 <body>
 
-  <!-- Content elements -->
-  <h1>Appliance Energy Consumption</h1>
-  <div id="content"></div>
+  <!-- Header: logo + site name only (no nav links) -->
+  <header class="site-header">
+    <div class="nav-bar">
+      <a class="brand" href="index.html" aria-label="EnergyHub home">
+        <img src="logo.png" alt="EnergyHub logo">
+        <span class="brand-name">EnergyHub</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Page title -->
+  <h1 class="page-title">Appliance Energy Consumption</h1>
 
   <!-- NEW: Container for T04-3 chart -->
   <div class="responsive-svg-container"></div>
@@ -39,8 +48,7 @@
 
   <script src="t04-5-bars.js"></script>
 
-  <!-- Old T04-2 demo (temporarily disabled) -->
-  <!-- <script src="energy-d3.js"></script> -->
+ 
 
   <!-- Site navigation script -->
   <script src="script.js"></script>
