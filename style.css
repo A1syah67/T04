@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap');
 
 
@@ -716,3 +715,12 @@ svg text {
 
 }
 
+
+
+/* Page title under the header */
+.page-title {
+  max-width: var(--max-width);
+  margin: 1em auto 0;
+  padding: 0 1.25em;
+}
+ 
